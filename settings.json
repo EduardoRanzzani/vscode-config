@@ -1,0 +1,64 @@
+{
+	"editor.autoClosingQuotes": "always",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 12,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 1.8,
+	"editor.rulers": [80, 120],
+	"editor.renderLineHighlight": "gutter",
+	"editor.semanticHighlighting.enabled": true,
+	"editor.minimap.autohide": true,
+	"editor.scrollbar.vertical": "auto",
+	"editor.scrollbar.horizontal": "auto",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"explorer.compactFolders": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".eslint*, prettier*, tsconfig*, vite*, package-lock*, bun.lock, yarn.lock, pnpm-lock.yaml",
+		"tailwind.config*": "tailwind.config*, postcss.config*",
+		".env.local": ".env*",
+		".env": ".env*"
+	},
+	"files.autoSave": "afterDelay",
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "insert",
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"tailwindCSS.includeLanguages": {
+		"javascript": "javascript",
+		"javascriptreact": "javascriptreact",
+		"typescript": "typescript",
+		"typescriptreact": "typescriptreact"
+	},
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"typescript.format.semicolons": "insert",
+	"typescript.preferences.quoteStyle": "single",
+	"workbench.startupEditor": "welcomePage",
+	"workbench.editor.labelFormat": "short",
+	"workbench.activityBar.location": "default",
+	"workbench.layoutControl.enabled": true,
+	"breadcrumbs.enabled": false,
+	"window.titleBarStyle": "custom",
+	"window.commandCenter": true,
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.iconTheme": "vs-nomo-dark",
+	"terminal.integrated.env.windows": {},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"diffEditor.ignoreTrimWhitespace": false
+}
